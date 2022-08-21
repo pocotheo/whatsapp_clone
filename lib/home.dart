@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:whatsapp_clone/pages/select_person_to_chat_page.dart';
 import 'package:whatsapp_clone/providers.dart';
 
 class Home extends ConsumerStatefulWidget {
@@ -90,7 +91,7 @@ class _HomeState extends ConsumerState<Home>
             context,
             MaterialPageRoute(
                 builder: (_) =>
-                    Scaffold()) // change to actual select person page)),
+                    SelectPersonToChat()) // change to actual select person page)),
             ),
       ),
     );
